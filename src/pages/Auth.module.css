@@ -1,11 +1,12 @@
 .auth {
+  margin-top: 15rem !important;
   margin: 5rem auto;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   width: 30rem;
   border-radius: 8px;
   padding: 4rem;
   text-align: center;
-  background-color: #F6F1F1;
+  background-color: #a2a2a2;
 }
 
 .control {
@@ -53,7 +54,4 @@
   font-size: larger;
   margin-top: 1rem;
 }
-.auth button:hover {
-  background-color: #04597e;
-  cursor: pointer;
-}
+

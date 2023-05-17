@@ -3,7 +3,7 @@ import classes from "./NavBar.module.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AuthActions, AuthState } from "../store/slices/authanticationSlice";
 
-const Header = () => {
+const NavBar = () => {
   const navigate = useNavigate();
   const { isAuth } = useAppSelector<AuthState>((state) => state.auth);
   const dispatch = useAppDispatch();
@@ -38,7 +38,7 @@ const Header = () => {
           ) : (
             <>
               <NavLink onClick={logoutHandler} to="/">
-                Logout
+              <button>Logout</button>
               </NavLink>
             </>
           )}
@@ -48,4 +48,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;

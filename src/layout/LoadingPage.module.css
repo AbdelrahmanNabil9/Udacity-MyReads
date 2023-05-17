@@ -7,7 +7,7 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: conic-gradient(#0000 10%, #146C94);
+  background: conic-gradient(#0000 10%, #404040);
   animation: s3 1s infinite linear;
 }
 @keyframes s3 {
